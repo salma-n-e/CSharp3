@@ -95,6 +95,19 @@ namespace project_3
                 }
                 Console.WriteLine(book);
             }
+
+
+            //10
+
+            void PrintFirstBook(string[] books)
+            {
+                if (books == null || books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            }
         }
         
     }
