@@ -68,6 +68,19 @@ namespace project_3
             {
                 Console.WriteLine(book);
             }
+
+            //8
+
+            string[] books4 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            foreach (string book in books4)
+            {
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(book);
+            }
         }
         
     }
