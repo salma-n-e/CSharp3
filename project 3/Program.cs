@@ -41,6 +41,15 @@ namespace project_3
             {
                 Console.WriteLine($"{i + 1}. {books[i]}");
             }
+            //5
+            string[] books2 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int index = 0;
+
+            while (index < books2.Length)
+            {
+                Console.WriteLine(books[index]);
+                index++;
+            }
 
         }
         
