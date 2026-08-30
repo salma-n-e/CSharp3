@@ -50,6 +50,14 @@ namespace project_3
                 Console.WriteLine(books[index]);
                 index++;
             }
+            //6
+            int count = 0;
+
+            do
+            {
+                Console.WriteLine("Checking book...");
+                count++;
+            } while (count < 3);
 
         }
         
