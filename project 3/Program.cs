@@ -59,6 +59,15 @@ namespace project_3
                 count++;
             } while (count < 3);
 
+
+            //7
+
+            string[] books3 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            foreach (string book in books3)
+            {
+                Console.WriteLine(book);
+            }
         }
         
     }
