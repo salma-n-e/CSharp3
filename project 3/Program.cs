@@ -14,6 +14,22 @@ namespace project_3
                 {
                 Console.WriteLine("You can borrow this book");
             }
+            //2 
+            string title = "Refactoring";
+            
+            switch (title)
+            {
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+
+            }
         }
     }
 }
