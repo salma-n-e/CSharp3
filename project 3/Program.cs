@@ -34,6 +34,15 @@ namespace project_3
             int pages2 = 464;
             string sizeLabel = pages2 > 300 ? "Long Book" : "Short Book";
             Console.WriteLine(sizeLabel);
+
+            //4
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}. {books[i]}");
+            }
+
         }
+        
     }
 }
