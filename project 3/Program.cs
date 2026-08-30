@@ -30,6 +30,10 @@ namespace project_3
                     break;
 
             }
+            //3 
+            int pages2 = 464;
+            string sizeLabel = pages2 > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
         }
     }
 }
